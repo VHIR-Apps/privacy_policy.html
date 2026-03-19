@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - QR Beep Pro</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 { color: #06B6D4; text-align: center; margin-bottom: 10px; }
+        h2 { color: #2563EB; margin-top: 30px; border-bottom: 2px solid #f0f0f0; padding-bottom: 5px; }
+        p { margin-bottom: 15px; }
+        ul { margin-bottom: 15px; }
+        li { margin-bottom: 8px; }
+        .last-updated { text-align: center; color: #888; font-style: italic; margin-bottom: 40px; }
+        .contact { background: #f4f4f4; padding: 15px; border-left: 4px solid #06B6D4; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <div class="last-updated">Last updated: <span id="date"></span></div>
+
+    <p>Welcome to <strong>QR Beep Pro</strong> ("we", "our", or "us"). We are committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by QR Beep Pro (Package Name: <i>com.qr.beep.qrbeep</i>).</p>
+
+    <p>By using our mobile application, you agree to the collection and use of information in accordance with this policy.</p>
+
+    <h2>1. Information We Collect & Why</h2>
+    <p>To provide you with the best scanning and generating experience, our app requires certain permissions. We only collect data that is strictly necessary for the app to function:</p>
+    <ul>
+        <li><strong>Camera Permission:</strong> Required to scan QR codes and barcodes in real-time. We do not record videos, take secret photos, or send your camera feed to any external servers. The scanning happens entirely on your local device.</li>
+        <li><strong>Storage / Gallery Permission:</strong> Required if you choose to scan a QR code from your gallery or save a generated 4K QR code to your phone. We do not access or upload your personal photos.</li>
+        <li><strong>Vibration Control:</strong> Used solely to provide haptic feedback when a QR code is successfully scanned.</li>
+        <li><strong>Internet Access:</strong> Required to open scanned URLs, fetch remote admin configurations, process VIP logins, and display advertisements.</li>
+    </ul>
+
+    <h2>2. Data Storage & Security (Secure Vault)</h2>
+    <p>We deeply respect your privacy. Any QR code you scan or generate is stored <strong>locally on your device</strong> using a secure local database (Hive). We do not upload your scanning history to our servers.</p>
+    <p>If you use the <strong>Secure Vault</strong> feature, your data is protected using your device's native Biometric Authentication (Fingerprint/FaceID) or PIN. We do not have access to your biometric data; it is handled entirely by your device's operating system.</p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>We use trusted third-party services that may collect information used to identify you, provide analytics, or serve advertisements. These services adhere to their own strict privacy policies:</p>
+    <ul>
+        <li><strong>Google AdMob:</strong> We use AdMob to serve ads (for free users). AdMob may use advertising IDs to serve personalized ads based on your interests. You can opt-out of personalized advertising in your device settings.</li>
+        <li><strong>Google Play Billing:</strong> Used to process secure payments for Pro Subscriptions. We do not collect or store your credit card information.</li>
+        <li><strong>Firebase (Analytics & Remote Config):</strong> Used to monitor app crashes, understand app usage, and deliver real-time feature updates. Firebase collects anonymous usage data.</li>
+    </ul>
+    <p>Links to the privacy policies of third-party service providers used by the app:</p>
+    <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services & AdMob</a></li>
+        <li><a href="https://firebase.google.com/policies/analytics" target="_blank">Google Analytics for Firebase</a></li>
+    </ul>
+
+    <h2>4. In-App Purchases & Subscriptions</h2>
+    <p>If you choose to upgrade to QR Beep Pro, payments will be processed securely through Google Play Store. By subscribing, you agree to the auto-renewal terms set by the Play Store. You can cancel your subscription at any time through your Google Play account settings.</p>
+
+    <h2>5. Changes to This Privacy Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by updating this page and modifying the "Last updated" date. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+    <div class="contact">
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or the app, please feel free to contact us at:</p>
+        <p><strong>Email:</strong> support@vhir.com</p> <!-- আপনার আসল ইমেইল বসিয়ে নেবেন -->
+        <p><strong>Company:</strong> VHIR Technologies</p>
+    </div>
+
+</div>
+
+<script>
+    // Automatically set today's date
+    const date = new Date();
+    document.getElementById('date').innerText = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+</script>
+
+</body>
+</html>
